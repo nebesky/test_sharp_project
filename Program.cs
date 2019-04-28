@@ -24,7 +24,7 @@ namespace ConsoleApp5
 
                 for (var i = 0; i < list.Count; i++)
                 {
-                    var fact = (i);
+                    var fact = (i++);
                 }
 
             }
