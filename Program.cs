@@ -10,7 +10,6 @@ namespace ConsoleApp5
     {
         static void Main(string[] args)
         {
-            Console.Write("Введите число: ");
             var str = Console.ReadLine();
             int num;
             bool isNum = int.TryParse(str, out num);
@@ -18,7 +17,7 @@ namespace ConsoleApp5
             {
                 Console.WriteLine("Это число");
                 var list = new List<int>();
-                for (var i = 0; i < isNum; i++)
+                for (var i = 0; isNum; i++)
                 {
                     list.Add(i);
                 }
@@ -32,8 +31,6 @@ namespace ConsoleApp5
 
             else
                 Console.WriteLine("Попробуйте снова:");
-            Console.ReadLine();
-
         }
     }
 }
