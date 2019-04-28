@@ -17,7 +17,7 @@ namespace ConsoleApp5
             {
                 Console.WriteLine("Это число");
                 var list = new List<int>();
-                for (var i = 0; isNum; i++)
+                for (var i = 0; i < 10; i++)
                 {
                     list.Add(i);
                 }
